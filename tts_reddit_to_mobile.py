@@ -5,7 +5,7 @@ import os
 from TTS.api import TTS
 
 
-leopard = pvleopard.create(access_key=os.environ.get('ACCESS_KEY'),)
+leopard = pvleopard.create(access_key=os.environ.get('ACCESS_KEY'))
 os.environ['COQUI_STUDIO_TOKEN'] = 'API_KEY'
 
 def second_to_timecode(x: float) -> str:
