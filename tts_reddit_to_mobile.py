@@ -6,7 +6,7 @@ from TTS.api import TTS
 
 
 leopard = pvleopard.create(access_key=os.environ.get('ACCESS_KEY'),)
-os.environ['COQUI_STUDIO_TOKEN'] = 'WOqjcGRb0reNatbZ2yPxHMRzCoveEMbexqDQskZ4GLbkFpGY0n9dfRjwRbofwmF0'
+os.environ['COQUI_STUDIO_TOKEN'] = 'API_KEY'
 
 def second_to_timecode(x: float) -> str:
     hour, x = divmod(x, 3600)
